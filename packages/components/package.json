@@ -1,0 +1,25 @@
+{
+  "name": "yam-ui",
+  "version": "1.0.0",
+  "description": "",
+  "module":"es/index.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"vite build"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "yam-ui",
+    "vue3组件库"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@yam-ui/utils": "workspace:^1.0.0"
+  },
+  "typings": "lib/index.d.ts"
+}
